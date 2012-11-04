@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HTMLタグ */
+body {
+}
+
+/* volunteer */
+#volunteer table {
+	border-collapse: collapse;
+	border-spacing: 1px;
+	border: 1px solid #dad8d2;
+	margin:20px 0 10px;
+}
+
+#volunteer table caption {
+	color: #62473D;
+	font-weight: bold;
+	text-align: left;
+}
+
+#volunteer table td, #volunteer table th {
+	border: 1px solid #dad8d2;
+	padding: 5px;
+	white-space: nowrap;
+}
+
+#volunteer table th {
+	background: #d5c9bd;
+	color: #62473d;
+	font-weight: bold;
+	width: 4em;
+}
+
+#volunteer table th.letterspace {
+	letter-spacing: 2em;
+	padding-left: 2em;
+}
+
+/* gathering */
+#gathering {
+	
+}
+
+#gathering h3 {
+	margin-bottom: 10px;	
+}
+
+/* gatheringcontents */
+#gatheringcontents {
+	margin-top: 20px;
+}
+
+#gatheringcontents li {
+	margin-top: 20px;
+}
+
+#gatheringcontents li li {
+	margin-top: 0;
+}
+
+#gatheringcontents li dd {
+	margin-top: 10px;
+}
+
+#gatheringcontents li table {
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+#gatheringcontents li td.positiontop {
+	vertical-align: top;
+}
+
+/* information */
+#information {
+	
+}
+
+#information h3 {
+	margin-bottom: 10px;	
+}
+
+#information p {
+	margin-bottom: 10px;	
+}

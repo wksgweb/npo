@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HTMLタグ */
+body {
+}
+
+/* family */
+#family .red {
+	color: #ff0000;
+}
+
+#family h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#family h4 {
+	border: 1px solid #ff0000;
+	color: #ff0000;
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#family #familypamphlet {
+	margin-top: 20px;
+}
+
+/* meeting */
+#meeting h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#meeting h4 {
+	border: 1px solid #ff0000;
+	color: #ff0000;
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 5px;
+}

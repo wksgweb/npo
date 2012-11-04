@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HTMLタグ */
+body {
+	background-image: url(../common/img/glovalnavi_background.png);
+	background-repeat: repeat-x;
+	background-position: center 366px;
+}
+
+/* topimage */
+#topimage {
+	clear: both;	
+}
+
+/* topics */
+.redcolor, strong {
+	color: #ff0000;
+}
+
+.topicssidespace {
+	margin-left: 71px;
+}
+
+#topics table {
+	border-collapse: collapse;
+	border-bottom: 1px solid #dad8d2;
+}
+
+#topics table td, #topics table th {
+	border-bottom: 1px dotted #dad8d2;
+	padding: 10px 5px 10px 5px;
+	white-space: nowrap;
+}
+
+#topics table td img {
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+
+#topics table th.letterspace {
+	letter-spacing: 2em;
+	padding-left: 2em;
+}
+
+#topics table dl {
+	margin-left: 1em;
+}
+
+#topics table dl ul li.art {
+	margin-left: 2em;
+}
+
+#topics table td span.headquarters {
+	font-weight: bold;
+}
+
+/* this month */
+#thismonth {
+	margin-top: 20px;
+}
+
+#thismonth table {
+	border-collapse: collapse;
+	border: 1px solid #dad8d2;
+	margin:10px 0 10px;
+	width: 35em;
+}
+
+#thismonth table td, #thismonth table th {
+	border: 1px solid #dad8d2;
+	padding: 5px;
+}
+
+#thismonth table th {
+	background: #d5c9bd;
+	color: #62473d;
+	font-weight: bold;
+	width: 4em;
+}

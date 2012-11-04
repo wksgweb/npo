@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HTMLタグ */
+body {
+}
+
+/* access */
+#access p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#access h3 {
+	border-bottom: 1px solid #62473d;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+#access a {
+	background-image: url(../access/img/googlemap_link.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;	
+}
+
+/* access Linkタグ */
+#access a:link {
+	color: #62473d;
+	text-decoration: none;
+}
+#access a:visited {
+	color: #62473d;
+	text-decoration: none;
+}
+#access a:hover {
+	color: #62473d;
+	text-decoration: underline;
+}
+#access a:active {
+	color: #62473d;
+	text-decoration: none;
+}

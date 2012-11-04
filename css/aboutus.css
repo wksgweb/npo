@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HTMLタグ */
+body {
+}
+
+/* aboutus */
+#aboutus table {
+	border-collapse: collapse;
+	border-bottom: 1px solid #dad8d2;
+}
+
+#aboutus table td, #aboutus table th {
+	border-bottom: 1px dotted #dad8d2;
+	padding: 10px 5px 10px 5px;
+	white-space: nowrap;
+}
+
+#aboutus table th {
+	font-weight: bold;
+	padding-right: 20px;
+	text-align: left;
+}
+
+#aboutus ul li {
+	background: url(../aboutus/img/list_work_arrow.png) left center no-repeat;
+	padding-left: 8px;
+	margin-left: 10px;
+}
+
+#aboutus ul li.noliststyle {
+	background: none;
+	margin-left: -8px; /* レイアウト調整のため */
+}
+
+#secretariat, #socialwork, #philosophy, #ourhistory {
+	margin-top: 20px;
+}
+
+/* socialwork */
+#socialwork dl {
+	margin-top: 20px;
+}
+
+/* philosophy */
+#philosophy p {
+	margin-top: 10px;
+}
+
+/* ourhistory */
+#ourhistory td {
+	white-space: normal;
+}

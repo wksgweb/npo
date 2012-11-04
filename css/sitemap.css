@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HTMLタグ */
+body {
+}
+
+/* sitemap */
+#sitemap h2 {
+	margin-bottom: 20px;
+}
+
+#sitemap span {
+	background: url(../sitemap/img/document.png) left 4px no-repeat;
+	border-bottom: 1px solid #62473d;
+	display: block;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
+#sitemap dl dd {
+	margin-bottom: 20px;
+}
+
+#sitemap dl dd p.info {
+	background: url(../sitemap/img/information01.png) left 4px no-repeat;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	margin-left: 15px; /* h2のpadding-left */
+	margin-top: 5px;
+}
+
+#sitemap ul {
+	margin-left: 1em;
+}
+
+#sitemap ul ul {
+	margin-left: 1em;
+}
+
+#sitemap ul li, #sitemap ul li ul li p {
+	background: url(../sitemap/img/arrow02.png) left center no-repeat;
+	padding-left: 12px;
+}
+
+#sitemap ul li.noliststyle {
+	background: none;
+	margin-left: -12px; /* レイアウト調整のため */
+}

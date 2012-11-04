@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HTMLタグ */
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 0.8em;
+	line-height: 1.6;
+	color: #333;
+	background-color: #fff;
+}
+
+/* Linkタグ */
+a:link {
+	color: #3f91f5;
+	text-decoration: none;
+}
+a:visited {
+	color: #3f91f5;
+	text-decoration: none;
+}
+a:hover {
+	color: #3f91f5;
+	text-decoration: underline;
+}
+a:active {
+	color: #3f91f5;
+	text-decoration: none;
+}
+
+/* ラッパー */
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/* ヘッダー */
+#header {
+	height: 109px;	
+}
+
+#header #subtitle {
+	float: left;
+	margin-left: 80px;
+}
+
+#header #headnavi {
+	float: right;
+	margin-top: 10px;
+	margin-right: 80px;
+}
+
+/* headnavi Linkタグ */
+#header #headnavi a:link {
+	color: #000000;
+	text-decoration: none;
+}
+#header #headnavi a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+#header #headnavi a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+#header #headnavi a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+#header #headnavi li {
+	background: url(../img/top_arrow.png) no-repeat left center;
+	float: left;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+h1 {
+	clear: both;
+	margin-left: 80px;
+	margin-bottom: 0px;
+}
+
+/* pankuzu */
+#pankuzu {
+	margin-bottom: 10px;
+}
+
+/* pankuzu Linkタグ */
+#pankuzu a:link {
+	color: #62473d;
+	text-decoration: none;
+}
+#pankuzu a:visited {
+	color: #62473d;
+	text-decoration: none;
+}
+#pankuzu a:hover {
+	color: #62473d;
+	text-decoration: underline;
+}
+#pankuzu a:active {
+	color: #62473d;
+	text-decoration: none;
+}
+
+/* glovalnavi */
+ul#glovalnavi {
+	clear: both;
+	padding-left: 80px;
+	height: 59px;
+	background-image:url(../img/navi_back.png);
+	background-position:center center;
+	background-repeat: no-repeat;
+}
+
+ul#glovalnavi li {
+	float: left;
+}
+
+#navitop a:hover img, #navivolunteer a:hover img, #navifamily a:hover img, #naviaccess a:hover img, #navilink a:hover img {
+	opacity:0;
+	filter:alpha(opacity=0);
+	-ms-filter: "alpha( opacity=0 )";
+}
+
+/* contents */
+#contents {
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+#contents h2 {
+	border-bottom: 2px solid #62473d;
+	padding-bottom: 10px;
+	margin-top: 30px;
+}
+
+#contents h3 {
+	border-bottom: 1px solid #62473d;
+	margin-top: 40px;
+	padding-bottom: 5px;
+}
+
+#contents td {
+	white-space: nowrap;
+}
+
+/* totop */
+#totop {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+#totop a {
+	background: url(../img/totop.png) no-repeat left center;
+	color: #62473d;
+	padding-left: 13px;
+}
+
+#totop a:hover {
+	background: url(../img/totop_hover.png) no-repeat left center;
+}
+
+/* footernavi */
+#footernavi{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* footernavi Linkタグ */
+#footernavi a:link {
+	color: #62473d;
+	text-decoration: none;
+}
+#footernavi a:visited {
+	color: #62473d;
+	text-decoration: none;
+}
+#footernavi a:hover {
+	color: #62473d;
+	text-decoration: underline;
+}
+#footernavi a:active {
+	color: #62473d;
+	text-decoration: none;
+}
+
+#footernavi ul {
+	text-align: center;
+}
+
+#footernavi li {
+	background: url(../img/footer_list.png) no-repeat left center;
+	display: inline;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+/* footer */
+#footer {
+	background: url(../img/footer_background.png) no-repeat center top #faf0e6;
+	color: #b6aba2;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	text-align: center;
+}
